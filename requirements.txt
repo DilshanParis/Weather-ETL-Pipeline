@@ -1,0 +1,11 @@
+# Core ETL + dashboard dependencies
+requests>=2.31.0
+pandas>=2.2.0
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.9
+streamlit>=1.33.0
+python-dotenv>=1.0.1
+
+# Airflow note (Windows): Airflow is not officially supported on native Windows.
+# This marker keeps `pip install -r requirements.txt` working on Windows.
+apache-airflow>=2.9.0; platform_system != "Windows"

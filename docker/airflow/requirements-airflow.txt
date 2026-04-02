@@ -1,0 +1,7 @@
+# Runtime deps for the ETL code executed by Airflow.
+# Keep versions unpinned here and let Airflow's constraints file
+# select compatible versions.
+requests
+pandas
+psycopg2-binary
+python-dotenv
