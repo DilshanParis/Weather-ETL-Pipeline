@@ -23,5 +23,11 @@ ENV/
 # Logs
 *.log
 
+# ML artifacts
+model.pkl
+
+# Test caches
+.pytest_cache/
+
 # Streamlit
 .streamlit/secrets.toml
