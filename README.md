@@ -148,7 +148,7 @@ flowchart LR
     I --> J[(model.pkl)]
     D --> K[Predict: src/predict.py]
     J --> K
-    K --> L[Predicted temperature (Streamlit + CLI)]
+   K --> L["Predicted temperature (Streamlit and CLI)"]
 
     G[Streamlit: dashboard/app.py] -->|read| D
 ```
